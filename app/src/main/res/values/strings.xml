@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My ApplicationHelloProjetoActivity</string>
+    <string name="app_name">Cadastros Hello</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="buttonListar" />
@@ -15,4 +15,8 @@
     <string name="numeroFornecedor" />
     <string name="nomeProduto" />
     <string name="nomeMarca" />
+    <string name="cadastro_cliente">Cadastro Cliente</string>
+    <string name="cadastro_produtos">Cadastro Produtos</string>
+    <string name="cadastro_fornecedores">Cadastro Fornecedores</string>
+    <string name="sair">Sair</string>
 </resources>

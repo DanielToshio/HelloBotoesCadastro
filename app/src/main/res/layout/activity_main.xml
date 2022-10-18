@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="cliente"
-            android:text="@string/btCliente"
+            android:text="@string/cadastro_cliente"
             tools:ignore="DuplicateSpeakableTextCheck" />
 
         <Button
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="produto"
-            android:text="@string/btProduto"
+            android:text="@string/cadastro_produtos"
             tools:ignore="DuplicateSpeakableTextCheck" />
 
         <Button
@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="fornecedor"
-            android:text="@string/btFornecedores"
+            android:text="@string/cadastro_fornecedores"
             tools:ignore="DuplicateSpeakableTextCheck" />
 
         <Button
@@ -49,6 +49,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="sair"
-            android:text="@string/btSair" />
+            android:text="@string/sair" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
