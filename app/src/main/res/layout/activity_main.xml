@@ -4,15 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <LinearLayout
+        android:id="@+id/linearID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
+        <Button
+            android:id="@+id/btclienteID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cliente"
+            android:text="@string/btCliente"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/btprodutoID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="produto"
+            android:text="@string/btProduto"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/btfornecedorID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="fornecedor"
+            android:text="@string/btFornecedores"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/btsairID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sair"
+            android:text="@string/btSair" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
